@@ -97,7 +97,7 @@ namespace VirtualBusStops
                        segRightButton = UIUtils.CreateButton(panel);
                        segRightButton.text = "StopRight";
                        segRightButton.textScale = 1f;
-                       segRightButton.relativePosition = new Vector2(120, 90);
+                       segRightButton.relativePosition = new Vector2(115, 90);
                        segRightButton.width = 105;
 
                        segRightButton.eventClick += (c, p) =>
