@@ -46,9 +46,9 @@ namespace VirtualBusStops
                        panel.name = "VirtualBusStopsMain";
                        panel.atlas = UIUtils.GetAtlas("Ingame");
                        panel.backgroundSprite = "MenuPanel2";
-                       panel.relativePosition = new Vector2(1315, 0);
+                       panel.relativePosition = new Vector2(1275, 0);
                        panel.canFocus = true;
-                       panel.size = new Vector2(490, 100);
+                       panel.size = new Vector2(340, 140);
 
                        m_title = panel.AddUIComponent<UITitleBar>();
                        m_title.title = "Virtual Bus Stops";
@@ -59,20 +59,20 @@ namespace VirtualBusStops
                        seglabel.autoSize = false;
                        seglabel.width = 105f;
                        seglabel.height = 20f;
-                       seglabel.relativePosition = new Vector2(5, 55);
+                       seglabel.relativePosition = new Vector2(10, 55);
 
                        seginput = UIUtils.CreateTextField(panel);
                        seginput.text = "";
-                       seginput.width = 90f;
+                       seginput.width = 100f;
                        seginput.height = 25f;
                        seginput.padding = new RectOffset(6, 6, 6, 6);
-                       seginput.relativePosition = new Vector3(115, 50);
+                       seginput.relativePosition = new Vector3(120, 50);
 
                        segNoneButton = UIUtils.CreateButton(panel);
                        segNoneButton.text = "None";
                        segNoneButton.textScale = 1f;
-                       segNoneButton.relativePosition = new Vector2(210, 50);
-                       segNoneButton.width = 70;
+                       segNoneButton.relativePosition = new Vector2(240, 50);
+                       segNoneButton.width = 90;
 
                        segNoneButton.eventClick += (c, p) =>
                        {
@@ -82,8 +82,8 @@ namespace VirtualBusStops
                        segLeftButton = UIUtils.CreateButton(panel);
                        segLeftButton.text = "StopLeft";
                        segLeftButton.textScale = 1f;
-                       segLeftButton.relativePosition = new Vector2(280, 50);
-                       segLeftButton.width = 70;
+                       segLeftButton.relativePosition = new Vector2(10, 90);
+                       segLeftButton.width = 100;
 
                        segLeftButton.eventClick += (c, p) =>
                        {
@@ -97,8 +97,8 @@ namespace VirtualBusStops
                        segRightButton = UIUtils.CreateButton(panel);
                        segRightButton.text = "StopRight";
                        segRightButton.textScale = 1f;
-                       segRightButton.relativePosition = new Vector2(355, 50);
-                       segRightButton.width = 70;
+                       segRightButton.relativePosition = new Vector2(120, 90);
+                       segRightButton.width = 105;
 
                        segRightButton.eventClick += (c, p) =>
                        {
@@ -112,8 +112,8 @@ namespace VirtualBusStops
                        segAllButton = UIUtils.CreateButton(panel);
                        segAllButton.text = "StopBoth";
                        segAllButton.textScale = 1f;
-                       segAllButton.relativePosition = new Vector2(425, 50);
-                       segAllButton.width = 70;
+                       segAllButton.relativePosition = new Vector2(225, 90);
+                       segAllButton.width = 110;
 
                        segAllButton.eventClick += (c, p) =>
                        {
