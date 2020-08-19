@@ -1,5 +1,5 @@
 # VirtualBusStops
-![Preview](https://i.imgur.com/eXWaj5g.jpg)
+![Preview](https://i.imgur.com/eXWaj5g.jpg?1)
 
 This mod for the road editor simulates different types of bus stops for an entered segment id
 
