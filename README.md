@@ -1,6 +1,8 @@
 # VirtualBusStops
 ![Preview](https://i.imgur.com/eXWaj5g.jpg?1)
 
+Download Here: https://steamcommunity.com/sharedfiles/filedetails/?id=2192700170
+
 This mod for the road editor simulates different types of bus stops for an entered segment id
 
 This is helpful when testing roads with custom bus stop meshes, since the road editor does not have a line tool
